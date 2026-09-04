@@ -310,7 +310,7 @@ export default function CheckoutPage() {
                 </div>
               )}
               <div className="flex justify-between">
-                <span>Delivery ({selectedZone.days})</span>
+                <span>Delivery ({selectedZone?.days})</span>
                 <span>{deliveryFee === 0 ? 'FREE' : `₦ ${deliveryFee.toLocaleString()}`}</span>
               </div>
             </div>
